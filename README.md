@@ -1,6 +1,6 @@
-# ReactStarterKit v1
+# ReactStarterKit
 
-#### Before to Start
+#### Repository Objective:
 
 - playground for requesting an API
 
