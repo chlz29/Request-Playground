@@ -45,6 +45,19 @@ class Header extends Component {
               onClick={this.handleRedirectPath}
               selectedKeys={[this.state.activeKey]}
             >
+              <Menu.Item key="/users">
+                <Icon type="user" />
+                Users
+              </Menu.Item>
+            </Menu>
+          </Col>
+
+          <Col span={6}>
+            <Menu
+              mode="horizontal"
+              onClick={this.handleRedirectPath}
+              selectedKeys={[this.state.activeKey]}
+            >
               <Menu.Item key="/photos">
                 <Icon type="picture" />
                 Photos
@@ -61,19 +74,6 @@ class Header extends Component {
               <Menu.Item key="/comments">
                 <Icon type="exception" />
                 Comments
-              </Menu.Item>
-            </Menu>
-          </Col>
-
-          <Col span={6}>
-            <Menu
-              mode="horizontal"
-              onClick={this.handleRedirectPath}
-              selectedKeys={[this.state.activeKey]}
-            >
-              <Menu.Item key="/users">
-                <Icon type="user" />
-                Users
               </Menu.Item>
             </Menu>
           </Col>
