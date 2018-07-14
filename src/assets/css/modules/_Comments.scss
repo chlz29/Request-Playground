@@ -1,0 +1,24 @@
+.Comments-section {
+  height: 600px;
+  min-height: 550px;
+
+  .comments-item {
+    border: 1px solid $primary;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+
+    &:hover {
+      border: 1px solid $primary-dark;
+      background: $pumpkin;
+      color: #fff;
+    }
+
+    &:before {
+      content: attr(comment-id);
+      position: absolute;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.Photo-section {
+  .photo-container {
+    position: relative;
+    width: 450px;
+    border: 2px solid $primary;
+    border-radius: 10px;
+    overflow: hidden;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .photo-container .thumbnail {
+    width: 100%;
+  }
+
+  .photo-container .description {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  .photo-container:hover .description {
+    opacity: 1;
+  }
+
+  .-cat:hover + .-dog {
+    display: block;
+  }
+
+  .-dog {
+    display: none;
+  }
+
+  .photo-container.-dog .description {
+    opacity: 1;
+  }
+}

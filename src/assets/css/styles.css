@@ -1,0 +1,123 @@
+/*
+ Partials
+*/
+.content-section {
+  min-height: calc(100vh - 130px);
+  padding: 2%; }
+
+/*
+  Modules - pages, parnent element
+*/
+.Home-section .go-container {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 50px;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  font-size: 25px; }
+  .Home-section .go-container:hover {
+    border: 1px solid black;
+    background: #F0AD4E;
+    color: white; }
+  .Home-section .go-container:before {
+    position: absolute; }
+
+.Home-section .go-btn {
+  background: #085492;
+  color: white;
+  border: 1px solid #043459;
+  width: 100%;
+  margin: auto; }
+  .Home-section .go-btn:hover {
+    background: #085492; }
+
+.Photo-section .photo-container {
+  position: relative;
+  width: 450px;
+  border: 2px solid #085492;
+  border-radius: 10px;
+  overflow: hidden;
+  right: 0px;
+  bottom: 0px; }
+
+.Photo-section .photo-container .thumbnail {
+  width: 100%; }
+
+.Photo-section .photo-container .description {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s; }
+
+.Photo-section .photo-container:hover .description {
+  opacity: 1; }
+
+.Photo-section .-cat:hover + .-dog {
+  display: block; }
+
+.Photo-section .-dog {
+  display: none; }
+
+.Photo-section .photo-container.-dog .description {
+  opacity: 1; }
+
+.Comments-section {
+  height: 600px;
+  min-height: 550px; }
+  .Comments-section .comments-item {
+    border: 1px solid #085492;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px;
+    display: inline-block;
+    position: relative; }
+    .Comments-section .comments-item:hover {
+      border: 1px solid #043459;
+      background: #F0AD4E;
+      color: #fff; }
+    .Comments-section .comments-item:before {
+      content: attr(comment-id);
+      position: absolute; }
+
+.Users-section {
+  height: 600px;
+  min-height: 550px; }
+  .Users-section .users-item {
+    border: 1px solid #085492;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px;
+    display: inline-block;
+    position: relative; }
+    .Users-section .users-item:hover {
+      border: 1px solid #043459;
+      background: #33CC33;
+      color: black; }
+    .Users-section .users-item:before {
+      content: attr(users-id);
+      position: absolute; }
+
+/*
+  components - custome UI / or usable style
+*/
+.FullWidthLoading-section {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  color: #F0AD4E; }
