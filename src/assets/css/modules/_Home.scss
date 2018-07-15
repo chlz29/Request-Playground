@@ -1,18 +1,25 @@
 .Home-section {
-  .go-container {
-    border: 1px solid black;
+  .homepage .personalLogo {
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+  }
+
+  .todo-container {
+    border: 3px solid black;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 40%;
     padding: 50px;
     display: inline-block;
     position: relative;
     align-items: center;
     font-size: 25px;
+    background-color: #fffacd;
 
     &:hover {
-      border: 1px solid black;
-      background: $pumpkin;
-      color: white;
+      border: 3px solid black;
+      background: #fff281;
+      color: #ffffff;
     }
 
     &:before {
@@ -21,14 +28,16 @@
   }
 
   .go-btn {
-    background: $primary;
-    color: white;
-    border: 1px solid $primary-dark;
+    background: #818dff;
+    color: #ffffff;
+    border: 2px solid #818dff;
     width: 100%;
     margin: auto;
 
     &:hover {
-      background: $primary;
+      background: #9aa4ff;
+      border: 2px solid #9aa4ff;
+      color: #000000;
     }
   }
 }

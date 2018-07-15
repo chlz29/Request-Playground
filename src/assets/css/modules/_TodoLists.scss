@@ -3,7 +3,7 @@
   min-height: 550px;
 
   .todo-item {
-    border: 1px solid $primary;
+    border: 1px solid #000000;
     margin-bottom: 20px;
     margin-left: 10px;
     padding: 20px;
@@ -11,13 +11,13 @@
     position: relative;
 
     &:hover {
-      border: 1px solid $primary-dark;
-      background: $jade;
-      color: black;
+      border: 1px solid red;
+      background: pink;
+      color: #fff;
     }
 
     &:before {
-      content: attr(users-id);
+      content: attr(todos-id);
       position: absolute;
     }
   }

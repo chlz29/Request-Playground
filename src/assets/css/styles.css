@@ -8,30 +8,38 @@
 /*
   Modules - pages, parnent element
 */
-.Home-section .go-container {
-  border: 1px solid black;
+.Home-section .homepage .personalLogo {
+  width: 30%;
+  height: 30%;
+  margin-left: 35%; }
+
+.Home-section .todo-container {
+  border: 3px solid black;
   margin-bottom: 20px;
-  margin-left: 10px;
+  margin-left: 40%;
   padding: 50px;
   display: inline-block;
   position: relative;
   align-items: center;
-  font-size: 25px; }
-  .Home-section .go-container:hover {
-    border: 1px solid black;
-    background: #F0AD4E;
-    color: white; }
-  .Home-section .go-container:before {
+  font-size: 25px;
+  background-color: #fffacd; }
+  .Home-section .todo-container:hover {
+    border: 3px solid black;
+    background: #fff281;
+    color: #ffffff; }
+  .Home-section .todo-container:before {
     position: absolute; }
 
 .Home-section .go-btn {
-  background: #085492;
-  color: white;
-  border: 1px solid #043459;
+  background: #818dff;
+  color: #ffffff;
+  border: 2px solid #818dff;
   width: 100%;
   margin: auto; }
   .Home-section .go-btn:hover {
-    background: #085492; }
+    background: #9aa4ff;
+    border: 2px solid #9aa4ff;
+    color: #000000; }
 
 .Photo-section .photo-container {
   position: relative;
