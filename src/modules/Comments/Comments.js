@@ -45,7 +45,17 @@ class Comments extends Component {
                 key={comment.id}
                 data-comment-id={comment.id}
               >
-                <h1 className="name"> {comment.name} </h1>
+                <h1 className="name">
+                  <strong>Name:</strong> {comment.name}
+                </h1>
+                <h1 className="name">
+                  <strong>Email:</strong>
+                  {comment.email}
+                </h1>
+                <h1 className="name">
+                  <strong>Body:</strong>
+                  {comment.body}
+                </h1>
                 <button onClick={() => this.handleGetCommentsById(comment.id)}>
                   Get info
                 </button>

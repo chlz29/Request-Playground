@@ -46,6 +46,9 @@ class Users extends Component {
                 <h1 className="name">
                   <strong>Name:</strong> {users.name}
                 </h1>
+                <h1 className="u-name">
+                  <strong>Username:</strong> {users.username}
+                </h1>
                 <h1 className="email">
                   <strong>Email:</strong> {users.email}
                 </h1>
