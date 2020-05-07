@@ -15,7 +15,7 @@
 
 .Home-section .todo-container {
   border: 3px solid black;
-  margin-bottom: 20px;
+  margin-top: 10%;
   margin-left: 40%;
   padding: 50px;
   display: inline-block;
@@ -87,11 +87,14 @@
     margin-left: 10px;
     padding: 20px;
     display: inline-block;
-    position: relative; }
+    position: relative;
+    min-width: 100%; }
     .Comments-section .comments-item:hover {
       border: 1px solid #043459;
       background: #F0AD4E;
       color: #fff; }
+      .Comments-section .comments-item:hover button {
+        background: #5BC0DE; }
     .Comments-section .comments-item:before {
       content: attr(comment-id);
       position: absolute; }
@@ -105,11 +108,14 @@
     margin-left: 10px;
     padding: 30px;
     display: inline-block;
-    position: relative; }
+    position: relative;
+    min-width: 100%; }
     .Users-section .users-item:hover {
       border: 1px solid #043459;
       background: #33CC33;
       color: black; }
+      .Users-section .users-item:hover button {
+        background: #F0AD4E; }
     .Users-section .users-item:before {
       content: attr(users-id);
       position: absolute; }

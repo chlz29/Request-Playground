@@ -9,11 +9,16 @@
     padding: 30px;
     display: inline-block;
     position: relative;
+    min-width: 100%;
 
     &:hover {
       border: 1px solid $primary-dark;
       background: $jade;
       color: black;
+
+      button {
+        background: $pumpkin;
+      }
     }
 
     &:before {

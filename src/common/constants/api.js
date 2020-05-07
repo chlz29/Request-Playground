@@ -1,1 +1,1 @@
-export const jsonplaceholder = 'https://jsonplaceholder.typicode.com';
+export const jsonplaceholder = 'https://my-json-server.typicode.com/chlzslvdr/MockAPI';

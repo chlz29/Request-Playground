@@ -9,22 +9,22 @@ class Photo extends Component {
         <div className="photo-container -cat _spacer-md">
           <img
             className="thumbnail"
-            src="http://r.ddmcdn.com/w_830/s_f/o_1/cx_0/cy_66/cw_288/ch_162/APL/uploads/2014/10/cat_5-1.jpg"
+            src="https://images.unsplash.com/photo-1588621332104-5e128b074d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
           />
 
           <div className="description">
-            <h1>cuttie</h1>
+            <h1>Cat</h1>
           </div>
         </div>
 
         <div className="photo-container -dog">
           <img
             className="thumbnail"
-            src="https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg"
+            src="https://images.unsplash.com/photo-1588619095585-5bc682a45ca4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1551&q=80"
           />
 
           <div className="description">
-            <h1>aw aw</h1>
+            <h1>Bird</h1>
           </div>
         </div>
       </section>

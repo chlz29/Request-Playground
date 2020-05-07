@@ -52,6 +52,12 @@ class Users extends Component {
                 <h1 className="email">
                   <strong>Email:</strong> {users.email}
                 </h1>
+                <h1 className="country">
+                  <strong>Country:</strong> {users.country}
+                </h1>
+                <h1 className="companyName">
+                  <strong>Company Name:</strong> {users.companyName}
+                </h1>
                 <button onClick={() => this.handleGetUsersById(users.id)}>
                   More Info
                 </button>

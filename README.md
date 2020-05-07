@@ -1,23 +1,31 @@
-# ReactStarterKit
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8c1b393-73da-4883-aef3-9e87eae93918/deploy-status)](https://app.netlify.com/sites/request-playground/deploys)
 
-#### Repository Objective:
+# Request-Playground
 
-- playground for requesting an API
+Playground for requesting an API
 
-#### How to Start?
+## Installation
 
-```
-Cloning the repo
-  git clone git@github.com:chlz29/Request-Playground.git
+Clone and run npm install to install the dependencies.
 
-Development
-  npm install
-  npm run start / yarn start
-
-Unit Test
-  npm run test / yarn test
+```bash
+npm install // yarn install
 ```
 
-#### Having an issue or problem, and suggestion?
+## Start locally
 
-Please, [Open an issue](https://github.com/chlz29/Request-Playground/issues/new).
+To run the project locally, use the `start` command.
+
+```bash
+yarn start
+```
+
+## Unit Test
+
+```bash
+npm run test / yarn test
+```
+
+## API Reference
+
+https://my-json-server.typicode.com/chlzslvdr/MockAPI
