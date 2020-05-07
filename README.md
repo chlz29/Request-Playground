@@ -4,6 +4,8 @@
 
 Playground for requesting an API
 
+[LIVE DEMO](https://request-playground.netlify.app)
+
 ## Installation
 
 Clone and run npm install to install the dependencies.
